@@ -8,15 +8,25 @@ Embora a lista duplamente encadeada seja adequada para manipular rotas lineares 
 
 Funcionalidades
 [x] Criação/Inicialização: criar uma lista vazia
+
 [x] Inserção: início da lista
+
 [x] Inserção: fim da lista
+
 [x] Inserção: posição específica
+
 [x] Remoção: primeira parada
+
 [x] Remoção: última parada
+
 [x] Busca: localizar parada por nome (correspondência parcial)
+
 [x] Listagem: rota completa (ida)
+
 [x] Listagem: rota em ordem inversa (volta)
+
 [x] Contagem: quantidade total de paradas cadastradas
+
 [x] Liberação: destruição da lista e liberação da memória
 
 Pré-requisitos
@@ -103,13 +113,21 @@ INICIANDO TESTES DE LISTA DUPLAMENTE ENCADEADA
 =========================================
 
 ✓ inserirInicio() passou em todos os testes
+
 ✓ inserirFim() passou em todos os testes
+
 ✓ inserirPosicao() passou em todos os testes
+
 ✓ removerInicio() passou em todos os testes
+
 ✓ removerFim() passou em todos os testes
+
 ✓ buscar() passou em todos os testes
+
 ✓ listarIda() passou em todos os testes
+
 ✓ listarVolta() passou em todos os testes
+
 ✓ contar() passou em todos os testes
 
 =========================================
