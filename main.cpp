@@ -10,12 +10,12 @@ int main() {
     int pos;
 
     do {
-        cout << "\n--- MENU ITINERÁRIO ---\n";
-        cout << "1. Inserir parada no início\n";
+        cout << "\n--- MENU ITINERARIO ---\n";
+        cout << "1. Inserir parada no inicio\n";
         cout << "2. Inserir parada no fim\n";
-        cout << "3. Inserir parada por posição\n";
+        cout << "3. Inserir parada por posicao\n";
         cout << "4. Remover primeira parada\n";
-        cout << "5. Remover última parada\n";
+        cout << "5. Remover ultima parada\n";
         cout << "6. Buscar parada por nome\n";
         cout << "7. Listar rota completa (ida)\n";
         cout << "8. Listar rota em ordem inversa\n";
@@ -38,7 +38,7 @@ int main() {
             case 3:
                 cout << "Nome da parada: ";
                 cin >> nome;
-                cout << "Posição: ";
+                cout << "Posicao: ";
                 cin >> pos;
                 rota.inserirPosicao(nome, pos);
                 break;

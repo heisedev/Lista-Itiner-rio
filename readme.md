@@ -7,6 +7,7 @@ O projeto simula um sistema de itinerário de ônibus, permitindo manipulação 
 Embora a lista duplamente encadeada seja adequada para manipular rotas lineares (ida e volta), em casos de linhas circulares de ônibus uma lista circular seria mais vantajosa. Isso porque o último nó aponta diretamente para o primeiro, representando naturalmente o trajeto contínuo sem necessidade de reinicializar a navegação. Assim, a estrutura reflete melhor o comportamento real da rota circular.
 
 Funcionalidades
+
 [x] Criação/Inicialização: criar uma lista vazia
 
 [x] Inserção: início da lista
