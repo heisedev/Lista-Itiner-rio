@@ -14,5 +14,6 @@ int main() {
     rota.removerFim();
     rota.listarIda();
 
+    
     return 0;
 }
